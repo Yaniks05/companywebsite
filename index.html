@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karenderya Searcher</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #f7941e, #ffcc33);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    max-width: 150px;
+    margin-bottom: 1rem;
+}
+
+.search-bar {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.search-bar input {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.search-bar button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #f7941e;
+}
+
+.features {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.feature-item {
+    margin: 1rem 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}.team {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #fff3e0;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.team-photo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+#restaurants {
+    padding: 2rem 1rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.restaurant-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.restaurant-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    max-width: 300px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.restaurant-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.restaurant-card h3 {
+    color: #f7941e;
+    margin-bottom: 0.5rem;
+}
+
+.restaurant-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0.5rem 0;
+}
+
+.restaurant-card ul li {
+    margin: 0.25rem 0;
+    color: #555;
+}
+
+
+</style>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo ksrenderya.png" alt="Karenderya Searcher Logo" class="logo">
+            <h1>Discover the Best Karenderyas Near You!</h1>
+    </header>
+    <main>
+        <main>
+            <section class="features">
+                <h2>WELCOME</h2>
+                <div class="feature-item">
+                    <h3></h3>
+                    <p>"Looking for good food should be easy because karenderyas are close to your heart and home, offering meals that feel like family with tasty dishes right where you live, so there’s no need to search far for authentic flavors, as karenderyas bring people together over food cooked with love and care, helping you discover your next favorite dish nearby while supporting your local community, proving that great food is just around the corner."
+
+
+
+
+
+
+                    </p>
+            
+            </section>
+            <section id="restaurants">
+                <h2>Featured Karenderyas</h2>
+                <div id="restaurant-list" class="restaurant-container">
+                  
+                </div>
+            </section>
+            
+        
+          
+            <section class="team">
+                <h2>V NEGAR KARENDERYA SEARCHERS</h2>
+                <div class="team-container">
+                    <div class="team-member">
+                        <img src="yannie.jpg" alt="Team Member 1" class="team-photo">
+                        <h3>CHRISTIAN REY SANICO</h3>
+                        <p>GWAPO NA TAG IYA</p>
+                     
+                    </div>
+                    <div class="team-member">
+                        <img src="462568760_1103355278153506_1895697027700469420_n.jpg" alt="Team Member 2" class="team-photo">
+                        <h3>John Lloyd Donque</h3>
+                        <p>TIG SCATTER SA HALIN</p>
+                    
+                    </div>
+                    <div class="team-member">
+                        <img src="team3.jpg" alt="Team Member 3" class="team-photo">
+                        <h3>Mary Johnson</h3>
+                        <p>Marketing Strategist</p>
+                     
+                    </div>
+                </div>
+            </section>
+        </main>
+       <footer>
+        <p>&copy; 2024 Karenderya Searcher</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
